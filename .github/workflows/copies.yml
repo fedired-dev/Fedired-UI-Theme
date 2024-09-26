@@ -1,0 +1,18 @@
+name: copies
+on:
+  push:
+    branches:
+      - '**'
+jobs:
+  copies:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: cp FediredUI.css mastodon/app/javascript/styles/fediredui/fediredui.scss
+      - run: cp FediredUI-PLUS.css mastodon/app/javascript/styles/fediredui-plus/fediredui-plus.scss
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Copy CSS files to installation folder
+          file_pattern: 'mastodon/'
