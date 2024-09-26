@@ -27,13 +27,13 @@ Sigue estos pasos para instalar **Fedired UI** en tu instancia de Mastodon:
 ### Instalar Fedired UI como el único tema en tu instancia:
 1. **Verifica la versión de Mastodon.** Para que Fedired UI funcione correctamente, asegúrate de estar instalando la versión adecuada para tu instancia de Mastodon.
 
-2. Copia y pega el contenido de [`FediredUI.css`](https://github.com/fedired-dev/FediredUI/blob/main/FediredUI.css) en el campo de **'CSS personalizado'** en el panel de administración de tu instancia de Mastodon (Navega a https://tu-dominio/admin/settings/appearance).
+2. Copia y pega el contenido de [`FediredUI.css`](https://github.com/fedired-dev/Fedired-UI-Theme/blob/main/FediredUI.css) en el campo de **'CSS personalizado'** en el panel de administración de tu instancia de Mastodon (Navega a https://tu-dominio/admin/settings/appearance).
 
 > [!ADVERTENCIA]
 > **Usar el campo '*CSS Personalizado*' para aplicar Fedired UI evitará que todos los usuarios de tu instancia puedan elegir otro tema en su configuración de Apariencia** 
 
 > [!IMPORTANTE]
-> FEDIRED UI ha sido diseñado con atención al detalle. Explora todas las mejoras y no dudes en [Enviar un Mensaje](https://fedired.com/@fedired) o [Reportar Errores](https://github.com/fedired-dev/FediredUI/issues).
+> FEDIRED UI ha sido diseñado con atención al detalle. Explora todas las mejoras y no dudes en [Enviar un Mensaje](https://fedired.com/@fedired) o [Reportar Errores](https://github.com/fedired-dev/Fedired-UI-Theme/issues).
 
 
 ## Apoyanos <3
