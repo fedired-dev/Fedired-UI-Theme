@@ -14,7 +14,7 @@ Este tema ha sido creado para proporcionar una interfaz coherente y atractiva qu
 
 ## Requisitos
 
-- **Mastodon**: Versión `4.3` o superior.
+- **Mastodon**: Versión `4.3` o superior(Versiones futuras de Mastodon).
 - Acceso al servidor donde está alojada tu instancia de Mastodon.
 - Permisos para editar archivos de configuración y estilo de tu instancia.
 
